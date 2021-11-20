@@ -19,4 +19,3 @@ echo "CMD python3 /home/myapp/design_app.py" >> tempdir/Dockerfile
 cd tempdir
 docker build -t designprojapp .
 docker run -t -d -p 5050:5050 --name designprojapprunning designprojapp
-docker ps -a
